@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Gloock&family=Merriweather:wght@300&family=Poppins:wght@200;400;600&display=swap");
+
+:root {
+  font-size: 15px;
+  font-family: "Gloock", serif;
+  font-family: "Merriweather", serif;
+  font-family: "Poppins", sans-serif;
+}
+
+* {
+  /* border: 0.001rem solid; */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(0, 0%, 98%);
+  margin: 1rem;
+}
+
+.container {
+  width: 72.5%;
+  margin: auto;
+  max-width: 40rem;
+}
+
+header {
+  margin-bottom: 5.25rem;
+  text-align: center;
+}
+
+h1 {
+  font-weight: 200;
+  color: hsl(234, 12%, 34%);
+  margin-bottom: 0.5rem;
+  font-size: 1.6rem;
+  letter-spacing: 0.01rem;
+  line-height: 1.5;
+}
+
+h2 {
+  font-weight: 600;
+  color: hsl(234, 12%, 34%);
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  letter-spacing: 0.075rem;
+}
+
+.card h3 {
+  font-weight: 600;
+  color: hsl(234, 12%, 34%);
+  font-size: 1.4rem;
+  margin-left: 0.5rem;
+}
+
+p {
+  font-weight: 400;
+  color: hsl(229, 6%, 66%);
+  font-size: 1rem;
+}
+
+.header-description {
+  line-height: 1.5;
+}
+
+.card-description {
+  text-align: left;
+  padding-bottom: 1rem;
+  margin-left: 0.5rem;
+}
+
+.card {
+  border-block-start: solid 0.3rem;
+  background-color: white;
+  border-radius: 0.4rem;
+  box-shadow: 0 1rem 2rem -0.75rem #dddddd;
+  margin-bottom: 1.5rem;
+  padding: 1.5rem;
+}
+
+.supervisor {
+  border-block-start-color: hsl(180, 62%, 55%);
+}
+
+.team-builder {
+  border-top-color: hsl(0, 78%, 62%);
+}
+
+.karma {
+  border-block-start-color: hsl(34, 97%, 64%);
+}
+
+.calculator {
+  border-block-start-color: hsl(212, 86%, 64%);
+}
+
+.image {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 0.75rem;
+  margin-right: 0.25rem;
+}
+
+@media screen and (min-width: 600px) {
+  :root {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  :root {
+    font-size: 17px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  :root {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .card {
+    min-width: 20rem;
+    min-height: 10rem;
+  }
+
+  .container {
+    max-width: 100%;
+  }
+
+  header {
+    font-size: 30px;
+  }
+
+  :root {
+    font-size: 19px;
+  }
+
+  .card-description {
+    font-size: 0.85rem;
+  }
+}
