@@ -1,5 +1,11 @@
 # :dart: AI Solutions Webpage
 
+## :computer: Tech Used
+
+- Web Development: HTML, CSS
+- Version Control: Git
+
+
 ## :page_facing_up: Overview
 
 The AI Solutions Webpage is a responsive HTML and CSS only webpage that showcases four key features of AI solutions. The webpage design is based on the specifications provided by the designer and was created using Figma. It leverages modern web design techniques, including flexbox and grid layouts, to ensure a visually appealing and user-friendly experience across different devices, such as mobile and desktop.
